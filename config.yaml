@@ -1,0 +1,24 @@
+data:
+  train_path: "data/CMAPSSData/train_FD001.txt"
+  test_path: "data/CMAPSSData/test_FD001.txt"
+  rul_path: "data/CMAPSSData/RUL_FD001.txt"
+  window_size: 30
+  max_rul: 125  # Piecewise linear RUL clip value
+
+model:
+  input_dim: 14  # Selected 14 useful sensors
+  hidden_dim: 128
+  lstm_layers: 2
+  attention_heads: 4
+  dropout: 0.2
+
+train:
+  batch_size: 64
+  learning_rate: 0.001
+  epochs: 10
+  patience: 10
+  save_dir: "models"
+  log_dir: "runs"
+
+dashboard:
+  port: 8501

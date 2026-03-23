@@ -1,0 +1,12 @@
+torch>=2.1.0
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+plotly
+streamlit
+pytest
+tensorboard
+hydra-core
+tqdm
