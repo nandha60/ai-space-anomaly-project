@@ -1,0 +1,8 @@
+# Large NASA data
+*.csv
+*.pkl
+data/
+models/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
