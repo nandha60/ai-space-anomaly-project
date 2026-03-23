@@ -1,11 +1,23 @@
+# Python caches
 __pycache__/
 *.pyc
+
+# Virtual environments
 .env
 venv/
 env/
 .venv/
+
+# Project specifics
 data/
 models/
 runs/
 .pytest_cache/
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.pkl
+
+# OS files
 .DS_Store
